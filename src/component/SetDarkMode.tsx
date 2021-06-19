@@ -32,7 +32,6 @@ export default function SetModeFunc() {
     }, [currentTheme]);
     return (
         <Fragment>
-            <p> Function Component</p>
             <div className="toggle" onClick={handleClick}>
                 <div className="mode-toogle">
                     <div className="day">

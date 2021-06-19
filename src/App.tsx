@@ -12,6 +12,7 @@ function App() {
         <SetModeFunc />
         {/* <SetMode /> */}
       </header>
+      
     </div>
   );
 }
