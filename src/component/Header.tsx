@@ -8,7 +8,7 @@ class Header extends Component<AppState, AppProps>  {
     readonly state: AppState = { name: 'Vivek' }
 
     public render() {
-        return <p> Header { this.state.name }</p>
+        return <p> Hello ! { this.state.name }</p>
     }
 }
 

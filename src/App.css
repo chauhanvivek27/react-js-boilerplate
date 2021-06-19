@@ -1,3 +1,13 @@
+body.dark {
+  background-color: #0f1114;
+  color: white;
+}
+
+body.light {
+  background-color: #fff;
+  color: #0f1114;
+}
+
 .App {
   text-align: center;
 }
@@ -22,12 +32,12 @@
 .night {
   position: absolute;
   left: 29px;
-  top: 4px;
+  top: -5px;
 }
 .day {
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: -5px;
+  left: 5px;
 }
 .toggle-round-light {
   position: absolute;
@@ -56,14 +66,12 @@
   position: relative;
 }
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

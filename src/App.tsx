@@ -1,5 +1,6 @@
 import  Header  from './component/Header';
 import  SetMode  from './component/SetMode';
+import SetModeFunc from './component/SetDarkMode';
 
 import './App.css';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-        <SetMode />
+        <SetModeFunc />
+        {/* <SetMode /> */}
       </header>
     </div>
   );
