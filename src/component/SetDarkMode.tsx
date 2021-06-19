@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useLayoutEffect, useState } from "react"
+import { Fragment, useEffect, useState } from "react"
 import { setTheme, getTheme } from './Util/SetTheme'
 
 export default function SetModeFunc() {
@@ -19,8 +19,7 @@ export default function SetModeFunc() {
         }
     }
 
-    useLayoutEffect(() => {
-        console.log('useeffect-called', currentTheme);
+    useEffect(() => {
         if (currentTheme === 'theme-light') {
             SetClassMode('toggle-round-light');
             window.document.body.classList.add('light');
